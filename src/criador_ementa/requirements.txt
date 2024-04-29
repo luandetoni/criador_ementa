@@ -11,6 +11,8 @@ langchain-openai
 langchain-text-splitters
 langsmith
 python-dotenv
-pysqlite3
+pysqlite3-binary
 embedchain
 chromadb
+setuptools
+wheel
