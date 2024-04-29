@@ -12,6 +12,5 @@ langchain-text-splitters
 langsmith
 python-dotenv
 pysqlite3
-sqlite3
 embedchain
 chromadb
