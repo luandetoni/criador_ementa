@@ -1,0 +1,12 @@
+crewai
+crewai-tools
+langchain
+langchain-anthropic
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-google-vertexai
+langchain-groq
+langchain-openai
+langchain-text-splitters
+langsmith

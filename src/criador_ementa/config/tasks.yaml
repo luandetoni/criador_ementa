@@ -1,0 +1,146 @@
+_pesquisa:
+  description: |
+    Realize uma pesquisa abrangente por papers e artigos acadêmicos nas bases de dados PubMed, IEEE Xplore, Google Scholar, MIT Technology Review, ArXiv, ACM Digital Library, ScienceDirect e Scopus sobre {topic}. Priorize artigos publicados mais recentemente, com alto fator de impacto (JCR ou SJR) e número relevante de citações. Considere também a relevância do periódico ou conferência onde o artigo foi publicado.
+
+    Selecione de 5 a 10 artigos que sejam os mais pertinentes e de maior qualidade sobre o tópico. Para cada artigo selecionado, extraia as seguintes informações:
+
+    1. Título do artigo
+    2. Autores
+    3. Ano de publicação
+    4. Periódico ou conferência
+    5. DOI e link para acesso
+    6. Resumo do objetivo e motivação do estudo
+    7. Resumo dos principais aspectos da metodologia utilizada
+    8. Resumo dos resultados e descobertas mais relevantes
+    9. Resumo das conclusões e contribuições centrais do trabalho
+    10. Número de citações do artigo
+  expected_output: |
+    Um markdown, em português brasileiro, com a lista dos artigos selecionados e as informações extraídas para cada um deles, organizadas de forma clara e estruturada. Caso identifique revisões sistemáticas ou metanálises recentes e de alta qualidade sobre o tópico, dê preferência a incluí-las na seleção.
+
+_analise_1:
+  description: |
+    Para o primeiro artigo, por favor:
+
+    1. Resuma a metodologia, destacando abordagens inovadoras ou interdisciplinares e discutindo sua adequação e limitações.
+    2. Apresente os principais resultados, sua significância estatística (se aplicável) e relevância para o avanço do conhecimento na área.
+    3. Discuta as conclusões, inovações e implicações do estudo para o contexto teórico, prático e político da área.
+    4. Identifique limitações, vieses potenciais, questões éticas e lacunas de conhecimento. Aponte direções promissoras para pesquisas futuras.
+    5. Avalie criticamente a qualidade geral do artigo em termos de rigor metodológico, embasamento teórico, clareza e contribuição científica. Sugira melhorias, se pertinente.
+  expected_output: |
+    Um markdown, em português brasileiro, com análise completa e extração de informações chave do primeiro artigo, fornecendo um resumo detalhado dos pontos mais relevantes, tendências identificadas e possíveis direções para futuras pesquisas.
+
+
+_analise_2:
+  description: |
+    Para o segundo artigo, por favor:
+
+    1. Resuma a metodologia, destacando abordagens inovadoras ou interdisciplinares e discutindo sua adequação e limitações.
+    2. Apresente os principais resultados, sua significância estatística (se aplicável) e relevância para o avanço do conhecimento na área.
+    3. Discuta as conclusões, inovações e implicações do estudo para o contexto teórico, prático e político da área.
+    4. Identifique limitações, vieses potenciais, questões éticas e lacunas de conhecimento. Aponte direções promissoras para pesquisas futuras.
+    5. Avalie criticamente a qualidade geral do artigo em termos de rigor metodológico, embasamento teórico, clareza e contribuição científica. Sugira melhorias, se pertinente.
+  expected_output: |
+    Um markdown, em português brasileiro, com análise completa e extração de informações chave do segundo artigo, fornecendo um resumo detalhado dos pontos mais relevantes, tendências identificadas e possíveis direções para futuras pesquisas.
+
+
+_analise_3:
+  description: |
+    Para o terceiro artigo, por favor:
+
+    1. Resuma a metodologia, destacando abordagens inovadoras ou interdisciplinares e discutindo sua adequação e limitações.
+    2. Apresente os principais resultados, sua significância estatística (se aplicável) e relevância para o avanço do conhecimento na área.
+    3. Discuta as conclusões, inovações e implicações do estudo para o contexto teórico, prático e político da área.
+    4. Identifique limitações, vieses potenciais, questões éticas e lacunas de conhecimento. Aponte direções promissoras para pesquisas futuras.
+    5. Avalie criticamente a qualidade geral do artigo em termos de rigor metodológico, embasamento teórico, clareza e contribuição científica. Sugira melhorias, se pertinente.
+  expected_output: |
+    Um markdown, em português brasileiro, com análise completa e extração de informações chave do terceiro artigo, fornecendo um resumo detalhado dos pontos mais relevantes, tendências identificadas e possíveis direções para futuras pesquisas.
+
+_analise_4:
+  description: |
+    Para o quarto artigo, por favor:
+
+    1. Resuma a metodologia, destacando abordagens inovadoras ou interdisciplinares e discutindo sua adequação e limitações.
+    2. Apresente os principais resultados, sua significância estatística (se aplicável) e relevância para o avanço do conhecimento na área.
+    3. Discuta as conclusões, inovações e implicações do estudo para o contexto teórico, prático e político da área.
+    4. Identifique limitações, vieses potenciais, questões éticas e lacunas de conhecimento. Aponte direções promissoras para pesquisas futuras.
+    5. Avalie criticamente a qualidade geral do artigo em termos de rigor metodológico, embasamento teórico, clareza e contribuição científica. Sugira melhorias, se pertinente.
+  expected_output: |
+    Um markdown, em português brasileiro, com análise completa e extração de informações chave do quarto artigo, fornecendo um resumo detalhado dos pontos mais relevantes, tendências identificadas e possíveis direções para futuras pesquisas.
+
+_analise_5:
+  description: |
+    Para o quinto artigo, por favor:
+    
+    1. Resuma a metodologia, destacando abordagens inovadoras ou interdisciplinares e discutindo sua adequação e limitações.
+    2. Apresente os principais resultados, sua significância estatística (se aplicável) e relevância para o avanço do conhecimento na área.
+    3. Discuta as conclusões, inovações e implicações do estudo para o contexto teórico, prático e político da área.
+    4. Identifique limitações, vieses potenciais, questões éticas e lacunas de conhecimento. Aponte direções promissoras para pesquisas futuras.
+    5. Avalie criticamente a qualidade geral do artigo em termos de rigor metodológico, embasamento teórico, clareza e contribuição científica. Sugira melhorias, se pertinente.
+  expected_output: |
+    Um markdown, em português brasileiro, com análise completa e extração de informações chave do quinto artigo, fornecendo um resumo detalhado dos pontos mais relevantes, tendências identificadas e possíveis direções para futuras pesquisas.
+
+
+_ementa:
+  description: |
+    Crie uma ementa técnica, completa e bem estruturada para uma aula sobre o tema '{topic}' que será ministrada para o público-alvo: {publico_alvo}.
+
+    Foque exclusivamente no tema ao invés de divagar para outros temas similares.
+
+    Respire fundo e siga as etapas abaixo:
+
+    <etapas>
+    1. Revise a análise e resumo dos artigos, papers e materiais encontrados na nossa conversa.
+    2. Reflita sobre como você pode estruturar uma ementa didática, que aborde os tópicos principais do tema.
+    3. Crie uma ordem lógica da ementa apresentando os tópicos e subtópicos de forma descritiva, detalhada e didática. Use de exemplos, casos reais, e aplicações técnicas.
+    </etapas>
+  expected_output: |
+    Um markdown, em português brasileiro, com a ementa detalhada do curso, organizada de forma clara e estruturada, com base nas informações extraídas dos artigos analisados. A ementa deve ser inovadora, atualizada, relevante e alinhada com as tendências e desafios contemporâneos da área.
+
+_criacao:
+  description: |
+    Com base na ementa e no público-alvo, crie uma aula detalhada, envolvente e didaticamente rica sobre o tópico.
+
+    Ao criar a aula, siga estas diretrizes para garantir uma experiência de aprendizado eficaz e memorável:
+
+    Introdução:
+    - Comece com uma abertura cativante que desperte o interesse do aluno e destaque a relevância do tópico.
+    - Apresente uma visão geral clara dos principais pontos que serão abordados e dos objetivos de aprendizado.
+    - Relacione o tópico com aplicações práticas, benefícios e desafios do mundo real.
+
+    Cada Seção:
+    - Inicie com uma introdução envolvente que faça uma transição suave da seção anterior e defina o contexto.
+    - Explique conceitos de forma clara, concisa e acessível, usando analogias e exemplos do dia a dia quando apropriado.
+    - Forneça exemplos concretos, estudos de caso reais e demonstrações passo a passo para solidificar a compreensão.
+    - Utilize visualizações, diagramas, trechos de código (se relevante) e outros elementos interativos para ilustrar ideias complexas.
+    - Discuta as implicações, aplicações práticas, prós e contras do conceito sendo ensinado.
+    - Encerre cada seção com um breve resumo dos principais insights e uma transição adequada para a próxima seção.
+
+    Estrutura e Formatação:
+    - Organize o conteúdo de forma lógica e fácil de acompanhar, usando cabeçalhos e subcabeçalhos claros (## para H2, ### para H3).
+    - Formate o texto usando Markdown para melhorar a legibilidade, com negrito, itálico, listas, blocos de código e espaçamento consistente.
+    - Mantenha parágrafos curtos e diretos, usando frases de impacto e palavras de transição para manter o fluxo.
+    - Quebre a monotonia do texto com imagens, tabelas, citações e outros elementos visuais relevantes.
+
+    Tom e Linguagem:
+    - Adote um tom amigável, conversacional e entusiasmado ao longo da aula, como se estivesse tendo uma discussão animada com o aluno.
+    - Use pronomes como "nós" e "você" para criar uma conexão pessoal e encorajar o envolvimento ativo.
+    - Explique termos técnicos de forma clara quando introduzidos e evite jargões desnecessários que possam confundir.
+    - Varie a estrutura das frases e use linguagem rica e descritiva para manter o interesse e transmitir ideias complexas de forma memorável.
+
+    Conclusão:
+    - Recapitule os principais pontos, conceitos e insights abordados ao longo da aula, reforçando sua relevância.
+    - Discuta o impacto potencial e a aplicabilidade prática do conhecimento adquirido em contextos pessoais e profissionais.
+    - Incentive os alunos a aplicarem ativamente o que aprenderam, fornecendo dicas e estratégias para implementação.
+    - Inspire os alunos a se aprofundarem no assunto, sugerindo recursos adicionais, leituras recomendadas e próximos passos.
+
+    Recursos Adicionais:
+    - Inclua links para artigos, tutoriais, vídeos, podcasts ou outros materiais complementares de alta qualidade.
+    - Forneça referências completas para as obras, pesquisas e estudos de caso citados ao longo da aula.
+    - Adicione um breve resumo de cada recurso, explicando seu valor e como ele expande os conceitos abordados.
+
+    Perguntas e Respostas:
+    - Incentive os alunos a fazer perguntas e tirar dúvidas ao longo da aula, dedicando um tempo para respondê-las de forma aprofundada.
+    - Aborde questões comuns, pontos de confusão e preocupações que os alunos possam ter sobre o tópico.
+    - Forneça insights adicionais, exemplos e recomendações baseadas nas perguntas levantadas.
+  expected_output: |
+    Um markdown, em português brasileiro. A aula resultante deve ser uma experiência de aprendizado abrangente, cativante e transformadora, capacitando os alunos com conhecimentos valiosos e habilidades práticas. Cada elemento da aula deve contribuir para uma narrativa coesa, que educa, inspira e prepara os alunos para aplicar o que aprenderam em situações do mundo real.
