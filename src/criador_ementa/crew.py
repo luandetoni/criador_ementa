@@ -42,18 +42,18 @@ from crewai_tools import (
 class CrewCriadorEmenta():
 	def __init__(self):
 		# API keys
-		self.openai_api_key = os.getenv('OPENAI_API_KEY')
+		# self.openai_api_key = os.getenv('OPENAI_API_KEY')
 		self.claudeai_api_key = os.getenv('CLAUDE_API_KEY')
-		self.huggingface_api_token = os.getenv('HUGGINGFACEHUB_API_TOKEN')
-		self.groq_api_key = os.getenv('GROQ_API_KEY')
+		# self.huggingface_api_token = os.getenv('HUGGINGFACEHUB_API_TOKEN')
+		# self.groq_api_key = os.getenv('GROQ_API_KEY')
 		# Language models
-		self.openai_gpt4_llm = ChatOpenAI(model_name='gpt-4-turbo-2024-04-09', api_key=self.openai_api_key)
-		self.openai_gpt35_llm = ChatOpenAI(model_name='gpt-3.5-turbo-0125', api_key=self.openai_api_key)
+		# self.openai_gpt4_llm = ChatOpenAI(model_name='gpt-4-turbo-2024-04-09', api_key=self.openai_api_key)
+		# self.openai_gpt35_llm = ChatOpenAI(model_name='gpt-3.5-turbo-0125', api_key=self.openai_api_key)
 		self.claude_opus_llm = ChatAnthropic(model_name='claude-3-opus-20240229', anthropic_api_key=self.claudeai_api_key)
 		self.claude_sonnet_llm = ChatAnthropic(model_name='claude-3-sonnet-20240229', anthropic_api_key=self.claudeai_api_key)
 		self.claude_haiku_llm = ChatAnthropic(model_name='claude-3-haiku-20240307', anthropic_api_key=self.claudeai_api_key)  
-		self.llama3_70b_llm = ChatGroq(model_name='llama3-70b-8192', groq_api_key=self.groq_api_key)
-		self.llama3_8b_llm = ChatGroq(model_name='llama3-8b-8192', groq_api_key=self.groq_api_key)
+		# self.llama3_70b_llm = ChatGroq(model_name='llama3-70b-8192', groq_api_key=self.groq_api_key)
+		# self.llama3_8b_llm = ChatGroq(model_name='llama3-8b-8192', groq_api_key=self.groq_api_key)
 		# self.llama3_8b_262k = VertexAIModelGarden(project="Projetos com IA", endpoint_id="llama-3-8b-instruct-262k")
 		# Config files
 		self.agents_config = 'config/agents.yaml'
