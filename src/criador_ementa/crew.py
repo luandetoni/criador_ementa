@@ -120,7 +120,7 @@ class CrewCriadorEmenta():
 			config=self.tasks_config['_pesquisa'],
 			agent=self.pesquisador(),
 			verbose=self.verbose_tasks,
-			output_file='./tasks_outputs/task1.md'
+			output_file='src/criador_ementa/tasks_outputs/task1.md'
 		)
 
 	@task
@@ -131,7 +131,7 @@ class CrewCriadorEmenta():
 			agent=self.analista(),
 			context=context,
 			verbose=self.verbose_tasks,
-			output_file='./tasks_outputs/task2_1.md'
+			output_file='src/criador_ementa/tasks_outputs/task2_1.md'
 		)
 
 	@task
@@ -142,7 +142,7 @@ class CrewCriadorEmenta():
 			agent=self.analista(),
 			context=context,
 			verbose=self.verbose_tasks,
-			output_file='./tasks_outputs/task2_2.md'
+			output_file='src/criador_ementa/tasks_outputs/task2_2.md'
 		)
 
 	@task
@@ -153,7 +153,7 @@ class CrewCriadorEmenta():
 			agent=self.analista(),
 			context=context,
 			verbose=self.verbose_tasks,
-			output_file='./tasks_outputs/task2_3.md'
+			output_file='src/criador_ementa/tasks_outputs/task2_3.md'
 		)
 
 	@task
@@ -164,7 +164,7 @@ class CrewCriadorEmenta():
 			agent=self.analista(),
 			context=context,
 			verbose=self.verbose_tasks,
-			output_file='./tasks_outputs/task2_4.md'
+			output_file='src/criador_ementa/tasks_outputs/task2_4.md'
 		)
 
 	@task
@@ -175,7 +175,7 @@ class CrewCriadorEmenta():
 			agent=self.analista(),
 			context=context,
 			verbose=self.verbose_tasks,
-			output_file='./tasks_outputs/task2_5.md'
+			output_file='src/criador_ementa/tasks_outputs/task2_5.md'
 		)
 
 	@task
@@ -192,7 +192,7 @@ class CrewCriadorEmenta():
 			agent=self.ementa(),
 			context=context,
 			verbose=self.verbose_tasks,
-			output_file='./tasks_outputs/task3.md'
+			output_file='src/criador_ementa/tasks_outputs/task3.md'
 		)
 
 	# @task
@@ -205,7 +205,7 @@ class CrewCriadorEmenta():
 			agent=self.criador_aula(),
 			context=context,
 			verbose=self.verbose_tasks,
-			output_file='./tasks_outputs/task4.md'
+			output_file='src/criador_ementa/tasks_outputs/task4.md'
 		)
 
 
