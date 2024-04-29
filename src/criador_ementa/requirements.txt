@@ -16,3 +16,4 @@ embedchain
 chromadb
 setuptools
 wheel
+colorama
