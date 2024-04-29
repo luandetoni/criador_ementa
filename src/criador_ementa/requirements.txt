@@ -17,3 +17,4 @@ chromadb
 setuptools
 wheel
 colorama
+flask
