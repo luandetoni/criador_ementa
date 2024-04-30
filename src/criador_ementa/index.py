@@ -172,7 +172,8 @@ def main():
                 for i in range(len(output_ementa)):
                     tasks_ementa += f"# TAREFA {i+1}:\n\n"
                     tasks_ementa += output_ementa[i].exported_output + "\n\n"
-                task_results.text_area("", value=tasks_ementa, placeholder="🤖 Jovem Padawan, preencher o formulário ao lado você deve. Com cada campo preenchido, mais próximo da sabedoria Jedi você estará. Grogu também começou seu treinamento com pequenos passos!", height=500, key="task_results")
+                # task_results.text_area("", value=tasks_ementa, placeholder="🤖 Jovem Padawan, preencher o formulário ao lado você deve. Com cada campo preenchido, mais próximo da sabedoria Jedi você estará. Grogu também começou seu treinamento com pequenos passos!", height=500, key="task_results")
+                task_results.markdown(tasks_ementa)
             else:
                 st.error('Erro ao extrair tarefas')
 
